@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - r_forbidshot (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - r_forbidshot (from `.symlinks/plugins/r_forbidshot/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  r_forbidshot:
+    :path: ".symlinks/plugins/r_forbidshot/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  r_forbidshot: 77e81fd355f889bca244104a9b8a1b5fddbc20d8
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.2
