@@ -66,7 +66,7 @@ class _ForbidshotWidgetState extends State<ForbidshotWidget> {
                   type: MaterialType.transparency,
                   child: widget.captureWidget,
                 ));
-        Overlay.of(context)!.insert(entry!);
+        Overlay.of(context).insert(entry!);
       } else {
         entry?.remove();
         entry = null;
