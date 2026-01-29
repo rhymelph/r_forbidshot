@@ -1,6 +1,6 @@
 name: r_forbidshot
 description: When users use screen capture or screen recording, they can make appropriate plug-ins for shielding and prompt/
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/rhymelph/r_forbidshot
 
 environment:
