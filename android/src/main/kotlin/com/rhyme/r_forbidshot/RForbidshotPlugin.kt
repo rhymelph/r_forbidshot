@@ -44,6 +44,10 @@ class RForbidshotPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
                     }
                 } else {
                     activity.window.clearFlags(WindowManager.LayoutParams.FLAG_SECURE)
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+                        val sur = forView(activity.window.decorView as ViewGroup)
+                        sur?.setSecure(false)
+                    }
                 }
                 result.success(null)
             } else {
